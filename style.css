@@ -55,7 +55,7 @@ table {
     margin: 0 auto;
 }
 
-.header{
+header{
 	display: flex;
 	margin-bottom: 30px;
 	flex-direction: column;
@@ -81,7 +81,6 @@ table {
 .FB_logo,.TW_logo{
 	margin-right: 4px;
 }
-
 
 .facebook{
 	color: rgb(7, 66, 175);
@@ -124,7 +123,7 @@ table {
 .banner h1{
 	z-index: 2;
 	position: absolute;
-	top: 156px;
+	top: 166px;
 	font-size: 35px;
 	color: rgb(255, 255, 255);
 	width: 932px;
@@ -142,12 +141,13 @@ table {
 	margin-bottom: 20px;
 }
 
-.course{
+.content ul{
 	display: flex;
 	justify-content: space-around;
+	margin-bottom: 30px;
 }
 
-.course_item{
+.content li{
 	/*border-left: 1px solid gray;
 	border-right: 1px solid gray;
 	border-bottom: 1px solid gray;*/
@@ -156,25 +156,70 @@ table {
 	padding: 10px;
 }
 
-.course_item img{
+.content li img{
 	margin-bottom: 10px;
 }
 
-.course_item h2{
+.content li h2{
 	text-align: center;
 	font-size: 25px;
 	margin-bottom: 10px;
+	color: black;
 }
 
-.course_item p{
+.content li a{
+	text-decoration: none;
+}
+
+.content li p{
 	text-align: center;
 	font-size: 18px;
 }
 
-.footer{
-    background: gray;
+h3{
+	text-align: center;
+	font-size: 26px;
+	color: black;
+	margin-bottom: 20px;
+}
+
+table{
+	margin: 0 auto;
+	font-size: 16px;
+	}
+
+tr{
+	height: 30px;
+	border-top: 1px solid rgb(192, 192, 192);
+	border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+th{
+	width: 180px;
+	text-align: left;
+	padding-left: 30px;
+	vertical-align: middle;
+
+}
+
+td{
+	width: 180px;
+	text-align: left;
+	padding-left: 30px;
+	vertical-align: middle;
+}
+
+.r1{
+	background-color: rgb(240, 240, 240);
+}
+
+.Gtext{
+	color: rgb(3, 184, 108);
+}
+
+footer{
+    background: rgb(163, 163, 163);
 	color: white;
 	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 10px 0;
 }
