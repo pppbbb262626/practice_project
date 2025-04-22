@@ -186,6 +186,7 @@ h3{
 table{
 	margin: 0 auto;
 	font-size: 16px;
+	margin-bottom: 60px;
 	}
 
 tr{
@@ -216,6 +217,80 @@ td{
 .Gtext{
 	color: rgb(3, 184, 108);
 }
+
+.info{
+	display: flex;
+	width: 1002px;
+	height: 500px;
+	background-color: rgb(34, 141, 87);
+	text-align: center;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: center;
+}
+
+.info h4{
+	top: 20px;
+	left: 356px;
+	line-height: 1.5;
+	text-align: center;
+	font-size: 26px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.info_data{
+	display: flex;
+	justify-content: space-around;
+}
+
+.info_data img{
+	width: 450px;
+	height: 270px;
+}
+
+.input_data{
+	width: auto;
+}
+
+.input_data ul{
+	color: white;
+	display: flex;
+	flex-direction: column;
+	text-align:left
+}
+
+.info_data li{
+	width: auto;
+	box-shadow: 0 0 0 0;
+
+}
+
+.input_data button{
+	color: white;
+	font-size: 16px;
+	background: #0fcaa2;
+	border: 0;
+	padding: 5px 25px;
+}
+
+.input_data button:hover{
+	color: white;
+	font-size: 16px;
+	background: #10ad8b;
+	border: 0;
+	padding: 5px 25px;
+}
+
+input{
+	padding:5px 15px; 
+	background:#ffffff; 
+	border:0 none;
+	cursor:pointer;
+	width: 350px;
+	height: 25px;
+	-webkit-border-radius: 3px;
+	border-radius: 5px; }
 
 footer{
     background: rgb(163, 163, 163);
